@@ -20,27 +20,5 @@
       "root": "~/Repositories/proj2",
       "vscode_workspace_path": "~/Repositories/proj2/proj2.code-workspace"
     }
-  },
-  {
-    "project_name": "test",
-    "safe_name": "test",
-    "project_description": "test 2",
-    "project_is_headless": false,
-    "project_path": {
-      "root": "/test/path",
-      "vscode_workspace_path": "/test/path/vs-code"
-    }
-  },
-  {
-    "project_name": "Tester",
-    "safe_name": "tester",
-    "project_description": "Test descriptor",
-    "project_is_headless": true,
-    "project_paths": {
-      "root": "/project/path/",
-      "vscode_workspace_path": "/project/path/",
-      "frontend": "/project/path/front",
-      "backend": "/project/path/back"
-    }
   }
 ]
