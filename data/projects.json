@@ -1,0 +1,31 @@
+[
+  {
+    "project_name": "Demo Project",
+    "project_description": "This is a demo project",
+    "project_is_headless": true,
+    "project_path": {
+      "root": "~/Repositories/proj1",
+      "frontend": "~/Repositories/proj1/frontend",
+      "backend": "~/Repositories/proj1/backend",
+      "vscode_workspace_path": "~/Repositories/proj1/proj1.code-workspace"
+    }
+  },
+  {
+    "project_name": "Demo Project 2",
+    "project_description": "A second project",
+    "project_is_headless": false,
+    "project_path": {
+      "root": "~/Repositories/proj2",
+      "vscode_workspace_path": "~/Repositories/proj2/proj2.code-workspace"
+    }
+  },
+  {
+    "project_name": "test",
+    "project_description": "test 2",
+    "project_is_headless": false,
+    "project_path": {
+      "root": "/test/path",
+      "vscode_workspace_path": "/test/path/vs-code"
+    }
+  }
+]
