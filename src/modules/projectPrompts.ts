@@ -1,4 +1,5 @@
 import * as inquirer from '@inquirer/prompts';
+
 import { Project } from '../types/projectInterface';
 
 interface Choice {
@@ -19,10 +20,14 @@ export function projectChoices(projects_data: Project[]): Choice[] {
 /**
  * Prompt the user to select a desired action
  */
-export async function programOptions() {
+export async function programOptions(): Promise<string> {
     const answer = await inquirer.select({
         message: 'Select an option',
         choices: [
+            {
+                name: 'List projects',
+                value: 'list_projects'
+            },
             {
                 name: 'Add a new project',
                 value: 'add_project'
@@ -44,24 +49,7 @@ export async function programOptions() {
                 value: 'exit'
             }
         ]
-    });
+    }, { clearPromptOnDone: true });
 
-    // TODO: Add functionality for each option
-    switch (answer) {
-        case 'add_project':
-            console.log('Add a new project');
-            break;
-        case 'remove_project':
-            console.log('Remove a project');
-            break;
-        case 'modify_project':
-            console.log('Modify a project');
-            break;
-        case 'select_project':
-            console.log('Select a project');
-            break;
-        case 'exit':
-            console.log('Exit');
-            break;
-    }
+    return answer;
 }

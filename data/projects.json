@@ -1,6 +1,7 @@
 [
   {
     "project_name": "Demo Project",
+    "safe_name": "demo-project",
     "project_description": "This is a demo project",
     "project_is_headless": true,
     "project_path": {
@@ -12,6 +13,7 @@
   },
   {
     "project_name": "Demo Project 2",
+    "safe_name": "demo-project-2",
     "project_description": "A second project",
     "project_is_headless": false,
     "project_path": {
@@ -21,6 +23,7 @@
   },
   {
     "project_name": "test",
+    "safe_name": "test",
     "project_description": "test 2",
     "project_is_headless": false,
     "project_path": {
@@ -30,6 +33,7 @@
   },
   {
     "project_name": "Tester",
+    "safe_name": "tester",
     "project_description": "Test descriptor",
     "project_is_headless": true,
     "project_paths": {

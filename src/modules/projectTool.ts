@@ -1,4 +1,5 @@
 import * as dotenv from 'dotenv'
+import * as figlet from 'figlet'
 import * as os from 'os'
 import * as fs from 'fs'
 
@@ -21,7 +22,20 @@ export function init() {
         console.error("Projects file does not exist: " + PROJECTS_FILE_PATH)
         process.exit(1)
     }
-
+    
+    // Show intro splash
+    console.clear();
+    console.log();
+    console.log(
+        figlet.textSync("Project Manager", {
+          font: "Standard",
+          horizontalLayout: "default",
+          verticalLayout: "default",
+          width: 60,
+          whitespaceBreak: true,
+        }).bgBlack.green
+    );
+    console.log()
 }
 
 /**

@@ -11,6 +11,7 @@ export interface ProjectPath {
 // Interface for the project data
 export interface Project {
     project_name: string;
+    safe_name?: string;
     project_description: string;
     project_is_headless: boolean;
     project_paths: ProjectPath;
