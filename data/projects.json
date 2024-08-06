@@ -27,5 +27,16 @@
       "root": "/test/path",
       "vscode_workspace_path": "/test/path/vs-code"
     }
+  },
+  {
+    "project_name": "Tester",
+    "project_description": "Test descriptor",
+    "project_is_headless": true,
+    "project_paths": {
+      "root": "/project/path/",
+      "vscode_workspace_path": "/project/path/",
+      "frontend": "/project/path/front",
+      "backend": "/project/path/back"
+    }
   }
 ]

@@ -1,17 +1,26 @@
-#!/usr/bin/env node
-
-// Import the project file data
-import projectData from '../data/projects.json'
-
 // Import external modules
-import { Command } from 'commander'
-import * as fs from 'fs'
+import fs, { PathLike } from 'fs'
+import path from 'path'
+
+import {select} from '@inquirer/prompts'
+
+// Initialise Project
 
 
 // Import internal modules
 import { Project } from './types/projectInterface'
+import * as projectTool from './modules/config'
+import * as projectManagement from './modules/projectManagement'
+import * as projectPrompts from './modules/prompts'
 
 /**
  * The program
  */
+projectTool.init()
+
+const projectsData = projectTool.loadProjects(projectTool.PROJECTS_FILE_PATH)
+
+// projectManagement.addProject(projectTool.PROJECTS_FILE_PATH)
+
+projectPrompts.programOptions()
 
