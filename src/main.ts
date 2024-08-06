@@ -20,7 +20,10 @@ projectTool.init()
 
 const projectsData = projectTool.loadProjects(projectTool.PROJECTS_FILE_PATH)
 
+console.log(projectsData);
+
 // projectManagement.addProject(projectTool.PROJECTS_FILE_PATH)
 
 projectPrompts.programOptions()
+
 

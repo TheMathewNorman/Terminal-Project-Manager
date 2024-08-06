@@ -1,7 +1,11 @@
 {
+  "name": "CLI-Projects-Manager",
+  "version": "1.0.0",
+  "description": "A CLI tool to manage your projects",
+  "main": "src/main.ts",
   "scripts": {
     "test": "jest",
-    "start": "ts-node src/app.ts",
+    "start": "ts-node src/main.ts",
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix"
   },
