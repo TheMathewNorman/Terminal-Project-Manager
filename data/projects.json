@@ -1,7 +1,7 @@
 [
   {
     "project_name": "Demo Project",
-    "safe_name": "demo-project",
+    "safe_name": "demo-project-1",
     "project_description": "This is a demo project",
     "project_is_headless": true,
     "project_path": {
@@ -15,6 +15,16 @@
     "project_name": "Demo Project 2",
     "safe_name": "demo-project-2",
     "project_description": "A second project",
+    "project_is_headless": false,
+    "project_path": {
+      "root": "~/Repositories/proj2",
+      "vscode_workspace_path": "~/Repositories/proj2/proj2.code-workspace"
+    }
+  },
+  {
+    "project_name": "Demo Project 3",
+    "safe_name": "demo-project-3",
+    "project_description": "A third project",
     "project_is_headless": false,
     "project_path": {
       "root": "~/Repositories/proj2",

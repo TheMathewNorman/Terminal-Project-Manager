@@ -2,7 +2,7 @@
 
 :construction: This project is a work in progress! Fundamental functionality is still missing.
 
-`TLDR; A CLI based software development project management tool using JSON`
+`TLDR A CLI based software development project management tool using JSON`
 
 I built this tool to help me deal with the many projects I have installed and setup for work.
 

@@ -1,0 +1,6 @@
+{
+    "nodejs.typescript.rebuildOnChanges": true,
+    "editor.guides": [],
+    "editor.formatOnSave": true,
+    "toolchains": []
+}
